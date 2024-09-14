@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Giving The animated Name to the top of calculator -->
+    <div>
+        <marquee
+          behaviour="alternative"
+          direction="right"
+          scrollamount="25"
+          backgroundcolor="red">
+          <font class="stroke-effect" color="purple" size="6pt" face="Pacifico, cursive"> Designed by Beenod </font>
+        </marquee>
+      </div>
+  </head>
+  <body>
+    
+    <!-- OutLine of  Calculator -->
+    <table  border="5" width="50%" align="center" bordercolor="darkblue"><tr><th>
+      <div class="calculator">Calculator From Ratnapark</div>
+    <h3>Enter the First Number: <input id="num1" type="number" autocomplete="off" /></h3>
+    <h3>Enter the Second Number: <input id="num2" type="number" autocomplete="off" /></h3>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="multi()">Multiply</button>
+    <button onclick="div()">Divide</button><br>
+    <h3>The Output is ::<input id="answer" autocomplete="off" readonly /></h3>
+<h5>Calculator &#10006;
+ Calculaaar &#10004;
+</h5>
+    <script src="script.js"></script>
+
+  </body>
+</html>

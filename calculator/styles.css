@@ -1,0 +1,70 @@
+body {
+  font-size: 24px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  table {
+  width: 80%;
+  margin: 40px auto;
+  background-color:#ECFFE6
+}
+
+
+th {
+  padding: 24px;
+}
+
+
+input[type="number"] {
+  width: 200px;
+  height: 40px;
+  font-size: 24px;
+  background-color:#dbd6e9;
+  color:#000000
+}
+input[type="number"]:hover{
+  transform:scale(1.1);
+  background-color:#FFD93D;
+}
+input[id="answer"]{
+  transform:scale(1.1);
+  background-color:#FFD93D;
+}
+
+.calculator{
+  font-size: 49px;
+  font-family:Gill Sans (sans-serif);
+  text-decoration:overline;
+  text-decoration:underline;
+}
+
+.stroke-effect {
+  -webkit-text-stroke: 2px rgb(34, 31, 238);
+}
+
+h3{
+  color:#399918;
+}
+
+button {
+  width: 200px;
+  height: 40px; 
+  font-size: 24px; 
+  margin-right: 20px;
+  color:darkmagenta
+}
+button:hover {
+  background-color: rgb(103, 200, 70);
+  transform: scale(1.1); }    
+
+#answer{
+  width: 200px;
+  height: 40px;
+  font-size: 24px;
+}
+
+h5{
+  padding-left: 80%;
+  padding-top: 5%;
+  text-decoration:underline;
+}
